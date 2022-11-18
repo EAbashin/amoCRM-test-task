@@ -1,0 +1,89 @@
+@media screen and (max-width: 1200px)
+  .footer
+    justify-content: space-between
+    &__menu
+      margin-left: 0
+      ul
+        li
+          margin-right: 30px
+    &__contacts
+      margin-left: 0
+
+@media screen and (max-width: 992px)
+  .footer
+    &__menu
+      ul
+        height: 310px
+        width: 175px
+    &__contacts_private
+      margin-top: 240px
+
+@media screen and (max-width: 768px)
+  .footer
+    margin-top: 100px
+    .container
+      display: block
+    &__about
+      margin-top: 40px
+      width: 100%
+    &__menu
+      margin-top: 40px
+      width: 100%
+      ul
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        flex-wrap: wrap
+        width: 410px
+        height: 150px
+        li
+          margin-right: 52px
+    &__contacts
+      margin-top: 40px
+      width: 100%
+      .phone
+        text-align: left
+        margin-left: 0
+      h3
+        text-align: left
+      p
+        text-align: left
+      .social
+        margin: 20px auto 20px 0
+      &_private
+        margin-top: 70px
+        margin-bottom: 20px
+        a
+          display: block
+          margin: 0 0 0 auto
+        h4, a
+          font-family: 'Montserrat'
+          font-size: 12px
+          line-height: 15px
+          text-align: left
+
+@media screen and (max-width: 576px)
+  .footer
+    margin-top: 45px
+    justify-content: flex-start
+    flex-direction: column
+    h3
+    ul
+      li
+        a
+          font-size: 14px
+          line-height: 17px
+    &__menu
+      margin-top: 30px
+      ul
+        width: 145px
+        height: 210px
+        .desktop
+          display: none
+        li
+          margin-right: 0
+          &:nth-child(-n+5)
+            margin-right: 45px
+          a
+            font-size: 14px
+            line-height: 17px
