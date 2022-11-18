@@ -53,21 +53,23 @@
 .header__nav {
   display: block;
   z-index: 100;
+}
+.header__nav ul {
   margin-left: 50px;
   padding: 0;
   list-style: none;
 }
-.header__nav li {
+.header__nav ul li {
   display: inline-block;
   margin-right: 30px;
 }
-.header__nav a {
+.header__nav ul li a {
   display: block;
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
 }
-.header__nav a:active {
+.header__nav ul li a:active {
   color: grey;
 }
 
@@ -288,6 +290,7 @@
   }
   .header__nav ul {
     padding-left: 0;
+    margin-left: 0;
   }
   .header__nav ul li {
     margin-right: 5px;
@@ -610,7 +613,7 @@ body {
 
 .phone {
   display: block;
-  margin-left: 120px;
+  margin-left: 60px;
   font-weight: 500;
   font-size: 16px;
   text-align: right;
